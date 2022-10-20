@@ -28,8 +28,8 @@ function generatePassword() {
 
 }
 
-function copyPassword(){
-    alert("Senha copiada com sucesso!")
+function copyPassword(){  
     navigator.clipboard.writeText(novaSenha);
+    alert("Senha copiada com sucesso!")
 }
 
